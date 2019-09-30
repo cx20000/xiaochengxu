@@ -1,0 +1,98 @@
+/* pages/home/home.wxss */
+#box{
+  width: 100%;
+  height: 100%;
+  position: relative;
+  background: #FBFBFB;
+}
+.herder{
+  width: 100%;
+  height: 350rpx;
+}
+.herder image{
+  width: 100%;
+  height: 350rpx;
+}
+.cont{
+  width: 90%;
+  margin-left: 5%;
+  /* bordesr: 10rpx solid black; */
+  height: 380rpx;
+  position: absolute;
+  top:280rpx;
+  box-shadow:2px 2px 5px gray;
+  background: white;
+  
+}
+.cont1{
+  margin-top: 20rpx;
+  margin-left: 20rpx;
+  font-size: 50rpx;
+  font-weight: 700;
+}
+.cont2{
+  font-size: 32rpx;
+  margin-top: 40rpx;
+  margin-left: 20rpx;
+  display: flex;
+  position: relative;
+  color: #4C4C4C;
+}
+.cont2-2{
+  margin-left: 50rpx;
+}
+.cont2-3{
+  position: absolute;
+  right: 20rpx;
+  width: 100rpx;
+  line-height: 50rpx;
+  text-align: center;
+  border: 1px solid #DFDFDF;
+  background: #F8F8F8;
+  border-radius: 10rpx;
+}
+.cont3{
+  display: flex;
+  margin-top: 100rpx;
+}
+.cont4{
+  /* margin-left: 50rpx; */
+  width: 150rpx;
+  text-align: center;
+}
+.cont4-1 image{
+  width: 100rpx;
+  height: 100rpx;
+}
+.cont4-2{
+  font-size: 35rpx;
+}
+.cont4:nth-of-type(1){
+  margin-left: 10rpx;
+}
+.cont4:nth-of-type(2){
+  margin-left: 95rpx;
+}
+.cont4:nth-of-type(3){
+  margin-left: 95rpx;
+}
+.footer{
+  width: 100%;
+  height: 130rpx;
+  display: flex;
+  position: fixed;
+  bottom: 0;
+  font-size: 32rpx;
+  color: #B8B8B8;
+  border-top:1px solid gainsboro;
+  background: white;
+}
+.foo1{
+  width: 33.3%;
+  text-align: center;
+  margin-top: 10rpx;
+}
+.foo1-1 image{
+  width: 70rpx;
+  height: 70rpx;
+}
