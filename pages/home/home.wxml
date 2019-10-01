@@ -8,24 +8,24 @@
         <view class="cont2">
             <view class="cont2-1">手机</view>
             <view class="cont2-2">15530039055</view>
-            <view class="cont2-3">拨打</view>
+            <view class="cont2-3" bindtap="tapName" >拨打</view>
         </view>
         <view class="cont2">
             <view class="cont2-1">邮箱</view>
             <view class="cont2-2">2201124457qq.com</view>
-            <view class="cont2-3">复制</view>
+            <view class="cont2-3" bindtap="copy">复制</view>
         </view>
         <view class="cont2">
             <view class="cont2-1">职业</view>
             <view class="cont2-2">web前端开发工程师</view>
-            <view class="cont2-3">复制</view>
+            <view class="cont2-3" bindtap="copy2">复制</view>
         </view>
         <view class="cont3">
-            <view class="cont4">
+            <view class="cont4" bindtap="sheng">
                 <view class="cont4-1"><image src="./images/2.png"></image></view>
                 <view class="cont4-2">生成海报</view>
             </view>
-            <view class="cont4">
+            <view class="cont4" bindtap="bao"> 
                 <view class="cont4-1"><image src="./images/3.png"></image></view>
                 <view class="cont4-2">保存电话</view>
             </view>

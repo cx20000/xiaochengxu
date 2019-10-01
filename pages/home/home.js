@@ -1,6 +1,67 @@
 // pages/home/home.js
 Page({
-
+  tapName: function(){
+    wx.makePhoneCall({
+      phoneNumber: '15530039055',
+    })
+  },
+  copy: function(e){
+    var that = this;
+    wx.setClipboardData({
+      data: "2201124457qq.com",
+      success: function (res) {
+        wx.showModal({
+          title: '提示',
+          content: '复制成功',
+          success: function (res) {
+            if (res.confirm) {
+              console.log('确定')
+            } else if (res.cancel) {
+              console.log('取消')
+            }
+          }
+        })
+      }
+    });
+  },
+  copy2: function (e) {
+    var that = this;
+    wx.setClipboardData({
+      data: "web前端开发工程师",
+      success: function (res) {
+        wx.showModal({
+          title: '提示',
+          content: '复制成功',
+          success: function (res) {
+            if (res.confirm) {
+              console.log('确定')
+            } else if (res.cancel) {
+              console.log('取消')
+            }
+          }
+        })
+      }
+    });
+  },
+  sheng:function(){
+    wx.chooseImage({
+      count: 1,
+      sizeType: ['original', 'compressed'],
+      sourceType: ['album', 'camera'],
+      success(res) {
+        // tempFilePath可以作为img标签的src属性显示图片
+        const tempFilePaths = res.tempFilePaths
+      }
+    })
+  },
+  bao:function(){
+    wx.addPhoneContact({
+      nickName: 'cx',
+      firstName: '陈哓',
+      lastName: '陈',
+      mobilePhoneNumber: '15530039055'
+    })
+  },
   /**
    * 页面的初始数据
    */
@@ -12,7 +73,7 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-
+   
   },
 
   /**
