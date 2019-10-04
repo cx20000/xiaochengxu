@@ -1,7 +1,47 @@
 /* pages/home/home.wxss */
-#box{
+#resume{
   width: 100%;
   height: 100%;
   position: relative;
   background: #FBFBFB;
 }
+.herder{
+  width: 100%;
+  height: 350rpx;
+}
+.herder image{
+  width: 100%;
+  height: 350rpx;
+}
+.cont{
+  width: 90%;
+  margin-left: 5%;
+  /* border: 10rpx solid black; */
+  height: 650rpx;
+  position: absolute;
+  top:280rpx;
+  box-shadow:2px 2px 5px gray;
+  background: white;
+  font-size: 30rpx;
+ }
+ .cont1{
+   width: 50%;
+   margin-left: 25%;
+   margin-top: 50rpx;
+   /* border: 1rpx solid black; */
+ }
+ .cont2{
+   display: flex;
+ }
+ .cont2-1 image{
+   width: 30rpx;
+   height: 30rpx;
+ }
+ .cont2-2{
+   margin-left: 10rpx;
+ }
+ .cont3{
+   margin-top: 30rpx;
+   margin-left: 40rpx;
+ }
+

@@ -35,7 +35,7 @@
             </view>
         </view>
     </view>
-    <view class="footer">
+    <!-- <view class="footer">
         <view class="foo1">
             <view class="foo1-1"><image src="./images/5.png"></image></view>
             <view class="foo1-2">名片</view>
@@ -48,5 +48,5 @@
             <view class="foo1-1"><image src="./images/7.png"></image></view>
             <view class="foo1-2">简历</view>
         </view>
-    </view>
+    </view> -->
 </view>
